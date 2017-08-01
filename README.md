@@ -9,7 +9,7 @@ sudo apt-get dist-upgrade
 # others
 
 ```shell
-apt://ubuntu-restricted-extras
+sudo apt-get install ubuntu-restricted-extras
 apt://flashplugin-installer
 ```
 
