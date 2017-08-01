@@ -1,0 +1,18 @@
+{
+	"class": "tabset_control",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"font_face": "ShareTechMono",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"material_theme_contrast_mode": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"tab_height": 42,
+	"tab_min_width": 48,
+	"tab_width": 10,
+	"theme": "Material-Theme-Darker.sublime-theme"
+}
