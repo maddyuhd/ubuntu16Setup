@@ -70,6 +70,10 @@ sudo apt-key add - < Release.key
 sudo add-apt-repository ppa:noobslab/icons
 sudo apt-get update
 sudo apt-get install arc-icons
+
+sudo add-apt-repository ppa:snwh/pulp
+sudo apt-get update
+sudo apt-get install paper-icon-theme
 ```
 
 
