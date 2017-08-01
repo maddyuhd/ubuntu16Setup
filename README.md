@@ -9,6 +9,7 @@ sudo apt-get dist-upgrade
 ```
 
 apt://ubuntu-restricted-extras
+
 apt://flashplugin-installer
 
 # vlc
