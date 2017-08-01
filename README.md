@@ -17,7 +17,6 @@ sudo apt install vlc
 ```
 
 # sublime stuff
-------------
 * "ctrl + shift + p"
 * *package control
 * material theme
@@ -31,6 +30,7 @@ Mac - create "Default (OSX).sublime-mousemap" in ~/Library/Application Support/S
 
 Win - create "Default (Windows).sublime-mousemap" in %appdata%\Sublime Text 3\Packages\User
 
+```shell
 [
     {
         "button": "button1", 
@@ -40,7 +40,7 @@ Win - create "Default (Windows).sublime-mousemap" in %appdata%\Sublime Text 3\Pa
         "command": "goto_definition"
     }
 ]
-
+```
 
 # enable ‘Minimise on Click’
 ```shell
