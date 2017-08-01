@@ -13,24 +13,30 @@ apt://ubuntu-restricted-extras
 apt://flashplugin-installer
 ```
 
-# vlc
+# media
 ```shell
 sudo apt install vlc
 ```
 
 # sublime stuff
-* "ctrl + shift + p"
-* *package control
+```shell
+sudo apt-get update
+sudo apt-get install sublime-text
+```
+
+* "ctrl + shift + p" *install package control
 * material theme
 * anaconda
 * advance new file
 * sidebar enhancement
 
+```shell
 Linux - create "Default (Linux).sublime-mousemap" in ~/.config/sublime-text-3/Packages/User
 
 Mac - create "Default (OSX).sublime-mousemap" in ~/Library/Application Support/Sublime Text 3/Packages/User
 
 Win - create "Default (Windows).sublime-mousemap" in %appdata%\Sublime Text 3\Packages\User
+```
 
 ```shell
 [
