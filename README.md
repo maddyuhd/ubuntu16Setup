@@ -1,3 +1,21 @@
+Table of contents
+=================
+
+  * [Update](#update)
+  * [Extras](#extras)
+  * [Media](#media)
+  * [Sublime Stuff](#sublime-stuff)
+  * [Customize](#customize)
+    * [Minimise on Click](#minimise-on-click)
+  * [Theme](#theme)
+    * [Icon](#icon)
+  * [Opencv](#opencv)
+  * [TensorFlow](#tensorFlow)
+  
+
+
+Update
+=========
 # update
 
 ```shell
@@ -5,19 +23,23 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get dist-upgrade
 ```
-
-# others
+Extras
+=========
+# Extras
 
 ```shell
 sudo apt-get install ubuntu-restricted-extras
 apt://flashplugin-installer
 ```
-
+Media
+=========
 # media
 ```shell
 sudo apt install vlc
 ```
 
+SublimeStuff
+=========
 # sublime stuff
 ```shell
 sudo apt-get update
@@ -50,17 +72,21 @@ Win - create "Default (Windows).sublime-mousemap" in %appdata%\Sublime Text 3\Pa
 ]
 ```
 
+Customize
+=========
+# Customize
+```shell
+sudo apt-get install unity-tweak-tool
+```
+Minimise on Click
+-----
 # enable ‘Minimise on Click’
 ```shell
 gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
 ```
-
-# customize
-```shell
-sudo apt-get install unity-tweak-tool
-```
-
-# theme
+Theme
+=========
+# Theme
 ```shell
 sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
 
@@ -70,7 +96,8 @@ wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Rele
 
 sudo apt-key add - < Release.key
 ```
-
+Icon
+-----
 # icon
 ```shell
 sudo add-apt-repository ppa:snwh/pulp
@@ -78,7 +105,8 @@ sudo apt-get update
 sudo apt-get install paper-icon-theme
 ```
 
-
+Opencv
+=========
 # opencv
 http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/
 ```shell
@@ -102,7 +130,8 @@ unzip opencv_contrib.zip
 
 ```
 
-
+TensorFlow
+=========
 # TensorFlow
 https://www.tensorflow.org/install/install_sources
 ```shell
