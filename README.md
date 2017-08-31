@@ -6,13 +6,12 @@ Table of contents
   * [Media](#media)
   * [Sublime Stuff](#sublime-stuff)
   * [Customize](#customize)
-    * [Minimise on Click](#minimise-on-click)
+    * [minimise on Click](#minimise-on-click)
   * [Theme](#theme)
-    * [Icon](#icon)
+    * [icon](#icon)
   * [Opencv](#opencv)
   * [TensorFlow](#tensorFlow)
   
-
 
 Update
 =========
@@ -71,7 +70,7 @@ Customize
 ```shell
 sudo apt-get install unity-tweak-tool
 ```
-Minimise on Click
+minimise on Click
 -----
 ```shell
 gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
@@ -87,7 +86,7 @@ wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Rele
 
 sudo apt-key add - < Release.key
 ```
-Icon
+icon
 -----
 ```shell
 sudo add-apt-repository ppa:snwh/pulp
@@ -99,8 +98,6 @@ Opencv
 =========
 http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/
 ```shell
-sudo apt-get update
-sudo apt-get upgrade
 sudo apt-get install build-essential cmake pkg-config
 sudo apt-get install libjpeg8-dev libtiff5-dev libjasper-dev libpng12-dev
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
@@ -116,7 +113,6 @@ unzip opencv.zip
 
 wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.1.0.zip
 unzip opencv_contrib.zip
-
 ```
 
 TensorFlow
@@ -140,7 +136,7 @@ sudo apt-get upgrade bazel
 
 sudo apt-get install python-numpy python-dev python-pip python-wheel
 ```
-# Configuration
+# configuration
 ```shell
 cd tensorflow  # cd to the top-level directory created
 ./configure
@@ -185,13 +181,13 @@ Do you wish to build TensorFlow with MPI support? [y/N]
 MPI support will not be enabled for TensorFlow
 Configuration finished
 ```
-# Building
+# building
 ```shell
 bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
 bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 sudo pip install /tmp/tensorflow_pkg/tensorflow-1.2.1-cp27-cp27mu-linux_x86_64.whl
 ```
-# Test
+# test
 ```shell
 # Python 
 import tensorflow as tf
