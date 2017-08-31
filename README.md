@@ -16,8 +16,6 @@ Table of contents
 
 Update
 =========
-# update
-
 ```shell
 sudo apt-get update
 sudo apt-get upgrade
@@ -25,22 +23,18 @@ sudo apt-get dist-upgrade
 ```
 Extras
 =========
-# Extras
-
 ```shell
 sudo apt-get install ubuntu-restricted-extras
 apt://flashplugin-installer
 ```
 Media
 =========
-# media
 ```shell
 sudo apt install vlc
 ```
 
 SublimeStuff
 =========
-# sublime stuff
 ```shell
 sudo apt-get update
 sudo apt-get install sublime-text
@@ -74,19 +68,16 @@ Win - create "Default (Windows).sublime-mousemap" in %appdata%\Sublime Text 3\Pa
 
 Customize
 =========
-# Customize
 ```shell
 sudo apt-get install unity-tweak-tool
 ```
 Minimise on Click
 -----
-# enable ‘Minimise on Click’
 ```shell
 gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
 ```
 Theme
 =========
-# Theme
 ```shell
 sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
 
@@ -98,7 +89,6 @@ sudo apt-key add - < Release.key
 ```
 Icon
 -----
-# icon
 ```shell
 sudo add-apt-repository ppa:snwh/pulp
 sudo apt-get update
@@ -107,7 +97,6 @@ sudo apt-get install paper-icon-theme
 
 Opencv
 =========
-# opencv
 http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/
 ```shell
 sudo apt-get update
@@ -132,7 +121,6 @@ unzip opencv_contrib.zip
 
 TensorFlow
 =========
-# TensorFlow
 https://www.tensorflow.org/install/install_sources
 ```shell
 git clone https://github.com/tensorflow/tensorflow 
@@ -152,11 +140,12 @@ sudo apt-get upgrade bazel
 
 sudo apt-get install python-numpy python-dev python-pip python-wheel
 ```
-
+# Configuration
 ```shell
 cd tensorflow  # cd to the top-level directory created
 ./configure
-
+```
+```shell
 Please specify the location of python. [Default is /usr/bin/python]: /usr/bin/python2.7
 Found possible Python library paths:
   /usr/local/lib/python2.7/dist-packages
@@ -196,14 +185,15 @@ Do you wish to build TensorFlow with MPI support? [y/N]
 MPI support will not be enabled for TensorFlow
 Configuration finished
 ```
-
+# Building
 ```shell
 bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
 bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 sudo pip install /tmp/tensorflow_pkg/tensorflow-1.2.1-cp27-cp27mu-linux_x86_64.whl
 ```
+# Test
 ```shell
-# Test Python 
+# Python 
 import tensorflow as tf
 hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
