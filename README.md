@@ -6,11 +6,11 @@ Table of contents
   * [Media](#media)
   * [Sublime Stuff](#sublime-stuff)
   * [Customize](#customize)
-    * [minimise on Click](#minimise-on-click)
+    * [Enable minimise on Click](#minimise-on-click)
   * [Theme](#theme)
     * [icon](#icon)
   * [Opencv](#opencv)
-  * [TensorFlow](#tensorFlow)
+  * [TensorFlow](#tensorflow)
   
 
 Update
