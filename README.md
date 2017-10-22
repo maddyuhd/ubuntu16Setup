@@ -70,6 +70,14 @@ Customize
 ```shell
 sudo apt-get install unity-tweak-tool
 ```
+
+Terminal minimal
+-----
+```shell
+nano ~/.bashrc
+PS1="\u > "
+```
+
 minimise on Click
 -----
 ```shell
