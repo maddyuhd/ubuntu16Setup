@@ -75,7 +75,8 @@ Terminal minimal
 -----
 ```shell
 nano ~/.bashrc
-PS1="\u > "
+PS1="> "
+PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME}: ${PWD}\007"'
 ```
 
 minimise on Click
